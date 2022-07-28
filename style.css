@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+body {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+p {
+  color: #777777;
+}
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-30%);
+}
+.btn-primary {
+  background-color: #289bde;
+  border-color: #289bde;
+}
+.header .logo {
+  font-weight: 600;
+  font-size: 40px;
+  color: #4a4a4a;
+}
+.hero img {
+  filter: brightness(0.6);
+}
+.section-gap {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.course h3 {
+  font-weight: 600;
+  font-size: 22px;
+  color: #4a4a4a;
+}
+.course-price {
+  font-weight: 600;
+  font-size: 18px;
+  color: #289bde;
+}
+.section-title {
+  margin-bottom: 50px;
+}
+.section-title h2 {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 36px;
+  color: #1d1d1d;
+}
+.join {
+  background-color: #289bde;
+  color: #fff;
+}
+
+.footer {
+  margin-top: 80px;
+}
+.footer h2 {
+  color: #fff;
+}
+.footer p,
+.footer i {
+  color: #e8e8e8;
+}
+.footer i {
+  background-color: #242424;
+  padding: 12px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+.footer i:hover {
+  background-color: #289bde;
+}
+@media screen and (max-width: 768px) {
+  .section-title h2 {
+    font-size: 28px;
+  }
+  .carousel-item img {
+    height: 60vh;
+    object-fit: cover;
+  }
+  .carousel-caption {
+    /* transform: initial; */
+  }
+}
